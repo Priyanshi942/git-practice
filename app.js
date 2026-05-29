@@ -30,7 +30,8 @@ app.use(express.static(path.join(__dirname,"/public")));
 
 
 app.get("/",(req,res)=>{
-    res.send("Hi,I am robot");
+    res.send("Hi , lets start with me amd i am a robot 
+             ");
 });
 //index route
 app.get("/listings", async (req, res) => {
